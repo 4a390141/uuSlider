@@ -6,6 +6,7 @@ function sliderUU() {
     sliderBtn = document.getElementById("sliderBtn");
     rightBtn = document.getElementById("rightBtn");
     leftBtn = document.getElementById("leftBtn");
+    var endX, endX, deltaX;
 
 
     //加入點按事件
