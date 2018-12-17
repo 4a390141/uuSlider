@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link type="text/css" rel="stylesheet" href="uuSliderCss.css">
+
+
+    <title>UUslider</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+    <div id="slider">
+
+        <!-- 每個banner 要幾個自己複製sliderItem-->
+        <ul id="sliderList">
+            <div class="sliderItem">
+                <img src="http://letsfilm.org/wp-content/uploads/2018/06/nacho-rochon-423005-unsplash.jpg">
+            </div>
+            <div class="sliderItem">
+                <img src="http://letsfilm.org/wp-content/uploads/2018/06/nacho-rochon-423005-unsplash.jpg">
+            </div>
+            <div class="sliderItem">
+                <img src="http://letsfilm.org/wp-content/uploads/2018/06/nacho-rochon-423005-unsplash.jpg">
+            </div>
+        </ul>
+
+        <!-- banner向左向右按鈕 -->
+        <div id="leftBtn">
+            <</div> <div id="rightBtn">>
+        </div>
+
+        <!-- banner小圓點 -->
+        <!-- 使用絕對定位可以改變位置id不能改 -->
+        <ul id="sliderBtn"></ul>
+
+    </div>
+
+
+    <!-- js -->
+    <script src="uuSliderJs.js"></script>
+    <script>
+        window.addEventListener("load", sliderUU, false);
+    </script>
+
+    
+</body>
+
+</html>

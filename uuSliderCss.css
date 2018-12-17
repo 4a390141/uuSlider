@@ -1,0 +1,87 @@
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color:transparent;  /*手機按藍光 */
+        }
+
+        #slider {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #sliderList {
+            position: relative;
+            transition: .66s;
+            width: 100%;
+        }
+
+        .sliderItem {
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+        }
+
+        .sliderItem:nth-child(1) {
+            position: relative;
+        }
+
+        .sliderItem img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #sliderBtn {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: rgba(40, 40, 151, .85);
+            opacity: 1;
+        }
+
+        #sliderBtn li {
+            list-style: none;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, .33);
+            display: inline-block;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #sliderBtn li:nth-child(1) {
+            background-color: cadetblue;
+        }
+
+        #leftBtn,
+        #rightBtn {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 50%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: rgba(0, 0, 0, .33);
+            cursor: pointer;
+            color: white;
+        }
+
+        #leftBtn {
+            left: 0;
+        }
+
+        #rightBtn {
+            right: 0;
+        }
